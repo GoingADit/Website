@@ -1,0 +1,1 @@
+Bin conains utility scripts that create the database and import some data using the provided .sql files.

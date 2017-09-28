@@ -1,0 +1,1 @@
+This contains data such as logs, configuration files, the SQLite databases and dump files, and the SSL certificates

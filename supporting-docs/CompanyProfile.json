@@ -1,0 +1,19 @@
+{
+  "companyProfile": [
+    {
+      "premiumMember": true,
+      "profileImg": "img/company1/profile.png",
+      "companyName": "company1",
+      "industry": "Mechanical",
+      "specialization": "Engine Block Grinding",
+      "majAchievments": ["Achievement 1", "Achievement 2"],
+      "projects": ["Project description 1", "Project description 2"],
+      "contactDetails":
+      {
+        "tel": "0112826589",
+        "name": "company1",
+        "location" :"-26.018838, 28.001019"
+      }
+    }
+  ]
+}

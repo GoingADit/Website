@@ -1,0 +1,1 @@
+Each component is handled as a mini Angular app
