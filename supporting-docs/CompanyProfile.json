@@ -6,6 +6,7 @@
       "companyName": "company1",
       "industry": "Mechanical",
       "specialization": "Engine Block Grinding",
+      "description": "We are a motor company!",
       "majAchievments": ["Achievement 1", "Achievement 2"],
       "projects": ["Project description 1", "Project description 2"],
       "contactDetails":

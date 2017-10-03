@@ -1,0 +1,29 @@
+ footer  {
+   background-color: rgba(0,255,0,0.5);
+   padding-top: 48px!important;
+   padding-bottom: 48px!important;
+   box-sizing: border-box;
+   display: block;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+ }
+
+ hr {
+     border: none;
+     height: 2px;
+     /* Set the hr color */
+     color: grey; /* old IE */
+     background-color: rgba(211,211,211,1); /* Modern Browsers */
+     margin: 20px 150px 0px 150px;
+ }
+
+.col-md-12,.col-md-4 {
+  text-align: center;
+}
+
+h3 {
+  padding: 0;
+}
+
+.py-5 {
+  padding-top: 20px!important;
+}
