@@ -16,7 +16,7 @@
      margin: 20px 150px 0px 150px;
  }
 
-.col-md-12,.col-md-4 {
+.center-text {
   text-align: center;
 }
 
@@ -34,10 +34,50 @@ h3 {
   border-radius: 2px;
 }
 
-.company {
-  background-color: black;
-  padding: 150px;
+.company-logo {
+  border: 2px solid blue;
+  margin: 10px;
+  padding: 100px
+
 }
-.company-banner {
+.project-mini-display {
   padding: 50px;
+  border: 2px solid blue;
+  display: inline;
+  clear: both;
+  float: right;
+}
+#row1colL {
+  border: 2px solid blue;
+  height: 50vh;
+  vertical-align: middle;
+}
+#row1colRrow1 {
+  border: 2px solid blue;
+}
+
+#row1colRrow2 {
+  border: 2px solid blue;
+}
+#row2colL {
+  border: 2px solid green;
+}
+#row2colR {
+  border: 2px solid green;
+}
+#row2colR {
+  padding-bottom: 50px;
+}
+
+
+.row {
+  margin-top: 30px;
+}
+
+.container img{
+  size: cover
+}
+
+.container {
+  text-align: center;
 }
