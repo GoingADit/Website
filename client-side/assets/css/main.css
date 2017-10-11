@@ -1,20 +1,24 @@
+body {
+    padding-top: 100px; /* This should be equal to the height of your header */
+}
+
  footer  {
    background-color: rgba(0,255,0,0.5);
    padding-top: 48px!important;
    padding-bottom: 48px!important;
    box-sizing: border-box;
    display: block;
-   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+   font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
  }
 
- hr {
+ /*hr {
      border: none;
      height: 2px;
-     /* Set the hr color */
-     color: grey; /* old IE */
-     background-color: rgba(211,211,211,1); /* Modern Browsers */
+     /* Set the hr color *//*
+     color: grey; /* old IE *//*
+     background-color: rgba(211,211,211,1); /* Modern Browsers *//*
      margin: 20px 150px 0px 150px;
- }
+ }*/
 
 .center-text {
   text-align: center;
@@ -34,50 +38,45 @@ h3 {
   border-radius: 2px;
 }
 
-.company-logo {
-  border: 2px solid blue;
-  margin: 10px;
-  padding: 100px
-
-}
-.project-mini-display {
-  padding: 50px;
-  border: 2px solid blue;
-  display: inline;
-  clear: both;
-  float: right;
-}
-#row1colL {
-  border: 2px solid blue;
-  height: 50vh;
-  vertical-align: middle;
-}
-#row1colRrow1 {
-  border: 2px solid blue;
+.company-title, .company-description {
+  background-color: grey;
+  padding: 5px;
 }
 
-#row1colRrow2 {
-  border: 2px solid blue;
-}
-#row2colL {
-  border: 2px solid green;
-}
-#row2colR {
-  border: 2px solid green;
-}
-#row2colR {
-  padding-bottom: 50px;
-}
-
-
-.row {
-  margin-top: 30px;
-}
-
-.container img{
-  size: cover
-}
-
-.container {
+.more-info-btn {
+  background-color: #2595EB;
+  padding: 15px;
+  border-radius: 5px;
   text-align: center;
+    margin-top: 35px;
+}
+
+.company-description {
+  margin-top: 10px;
+}
+
+.company-images img {
+  width: 25%!important;
+}
+
+.company-images {
+  margin-top: 20px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.carousel-inner {
+  width: 80%!important;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.carousel-inner {
+  height: 80%!important;
+}
+
+.carousel {
+  background-color: #C1C1C1;
+  position: relative;
+  padding: 10px;     /* Shows as a border around the carousel */
 }
